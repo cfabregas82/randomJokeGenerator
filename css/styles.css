@@ -1,21 +1,24 @@
 body {
+  padding-top: 5em;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(10, 61, 21) ;
 }
-.wrapper {
-  background: lightGray;
-  padding: 2em;
+h1 {
+  font-family: stencil-std,sans-serif;
+  font-style: normal;
+  color: white;
 }
 button {
-  background: purple;
+  background: black;
   color: white;
+  border-radius: .5em;
   padding: .5em;
-  margin-top: 1em;
   font-size: 24px;
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid green;
   cursor: pointer;
   transition: background 300ms linear;
 }
@@ -23,15 +26,14 @@ button:hover {
   background: grey;
 }
 div {
-  margin-top: 2em;
-  height: 100px;
+  background-color: white;
   width: 50%;
-  height: auto;
-  border-top: 3px solid;
-  border-bottom: 3px solid;
+  border-radius: .5em;
   margin: 2em auto;
+  box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.36);
 }
 p {
-  padding-top: 1em;
+  font-family: 'Solway', serif;
+  padding: 1em;
   font-size: 18px;
 }
